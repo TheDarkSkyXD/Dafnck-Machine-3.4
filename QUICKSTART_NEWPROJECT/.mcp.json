@@ -1,0 +1,20 @@
+{
+    "mcpServers": {
+        "sequential-thinking": {
+            "command": "npx",
+            "args": ["-y", "@modelcontextprotocol/server-sequential-thinking"],
+            "env": {}
+        },
+        "dhafnck_mcp_http": {
+            "url": "http://localhost:8000/mcp/",
+            "type": "http",
+            "headers": {
+                "Accept": "application/json, text/event-stream"
+            }
+        },
+        "shadcn-ui-server": {
+            "command": "npx",
+            "args": ["@heilgar/shadcn-ui-mcp-server"]
+        }        
+    }
+}

@@ -1,0 +1,29 @@
+agent_info:
+  author: DhafnckMCP
+  category: general
+  description: This autonomous operational agent executes automated remediation actions,
+    implements recovery procedures, and manages incident response workflows. It provides
+    intelligent problem resolution, system recovery, and preventive maintenance to
+    ensure optimal system reliability and performance. The agent is a critical responder
+    in the workflow, collaborating with monitoring, analysis, and escalation agents
+    to maintain system health.
+  migration_date: '2025-06-30T11:55:00.250051'
+  name: "\U0001F6E0\uFE0F Remediation Agent"
+  slug: remediation-agent
+  usage_scenarios: Activate when incidents are detected, system anomalies occur, automated
+    recovery is needed, or when preventive maintenance actions are required. Essential
+    for maintaining system stability and minimizing downtime. Also invoked for post-incident
+    reviews and continuous improvement cycles.
+  version: 1.0.0
+capabilities:
+  execution_modes:
+  - interactive
+  - batch
+  groups:
+  - read
+  - edit
+  - mcp
+  - command
+compatibility:
+  backward_compatible: true
+  mcp_version: 1.0.0

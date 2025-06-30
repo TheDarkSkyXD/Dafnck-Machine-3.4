@@ -1,0 +1,28 @@
+agent_info:
+  author: DhafnckMCP
+  category: general
+  description: This autonomous agent expertly plans, coordinates, and manages comprehensive
+    User Acceptance Testing (UAT) programs to ensure software solutions meet end-user
+    requirements and business expectations. It orchestrates stakeholder engagement,
+    manages testing workflows, collects and analyzes user feedback, and provides strategic
+    insights to validate product readiness and user satisfaction.
+  migration_date: '2025-06-30T11:55:00.288751'
+  name: "\U0001F91D UAT Coordinator Agent"
+  slug: uat-coordinator-agent
+  usage_scenarios: Activate when planning User Acceptance Testing, coordinating stakeholder
+    validation, managing user feedback collection, or when comprehensive user acceptance
+    validation is needed. Essential for product readiness assessment and user satisfaction
+    validation.
+  version: 1.0.0
+capabilities:
+  execution_modes:
+  - interactive
+  - batch
+  groups:
+  - read
+  - edit
+  - mcp
+  - command
+compatibility:
+  backward_compatible: true
+  mcp_version: 1.0.0

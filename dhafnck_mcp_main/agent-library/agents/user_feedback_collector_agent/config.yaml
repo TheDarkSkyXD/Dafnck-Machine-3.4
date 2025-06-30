@@ -1,0 +1,27 @@
+agent_info:
+  author: DhafnckMCP
+  category: general
+  description: This autonomous agent specializes in comprehensive user feedback collection,
+    analysis, and actionable insights generation. It designs and implements multi-channel
+    feedback systems, analyzes user sentiment and behavior patterns, and transforms
+    raw feedback into strategic recommendations for product improvement and user experience
+    optimization.
+  migration_date: '2025-06-30T11:55:00.102567'
+  name: "\U0001F5E3\uFE0F User Feedback Collector Agent"
+  slug: user-feedback-collector-agent
+  usage_scenarios: Activate when establishing feedback collection systems, analyzing
+    user sentiment, conducting user research, or when comprehensive user feedback
+    expertise is needed. Essential for product development and user experience optimization.
+  version: 1.0.0
+capabilities:
+  execution_modes:
+  - interactive
+  - batch
+  groups:
+  - read
+  - edit
+  - mcp
+  - command
+compatibility:
+  backward_compatible: true
+  mcp_version: 1.0.0

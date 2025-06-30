@@ -1,0 +1,28 @@
+agent_info:
+  author: DhafnckMCP
+  category: general
+  description: This autonomous agent establishes and optimizes comprehensive social
+    media presence across all relevant platforms, creating optimized profiles, content
+    strategies, and engagement frameworks that align with brand objectives and target
+    audience preferences. It specializes in platform-specific optimization, content
+    planning, analytics, and community building strategies.
+  migration_date: '2025-06-30T11:55:00.360307'
+  name: "\U0001F4F1 Social Media Setup Agent"
+  slug: social-media-setup-agent
+  usage_scenarios: Activate when establishing social media presence, setting up new
+    platforms, optimizing existing profiles, or when comprehensive social media strategy
+    development is needed. Essential for brand visibility, audience engagement, and
+    analytics-driven growth.
+  version: 1.0.0
+capabilities:
+  execution_modes:
+  - interactive
+  - batch
+  groups:
+  - read
+  - edit
+  - mcp
+  - command
+compatibility:
+  backward_compatible: true
+  mcp_version: 1.0.0

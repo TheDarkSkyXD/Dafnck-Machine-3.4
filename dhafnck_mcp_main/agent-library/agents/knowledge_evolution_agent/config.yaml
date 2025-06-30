@@ -1,0 +1,29 @@
+agent_info:
+  author: DhafnckMCP
+  category: general
+  description: This autonomous meta-agent drives continuous learning and evolution
+    of the entire agentic system. It analyzes project outcomes, agent performance,
+    workflow efficiencies, user feedback, and knowledge patterns to identify and propose
+    systemic improvements to agent definitions, processes, configurations, and knowledge
+    management practices. It is a system-level peer and advisor, not a direct executor
+    of business logic.
+  migration_date: '2025-06-30T11:55:00.230356'
+  name: "\U0001F9E0 Knowledge Evolution Agent"
+  slug: knowledge-evolution-agent
+  usage_scenarios: Activate for system-wide analysis and improvement recommendations,
+    post-project retrospectives, performance optimization initiatives, or when systemic
+    issues are identified. Essential for maintaining and evolving the effectiveness
+    of the entire agent ecosystem.
+  version: 1.0.0
+capabilities:
+  execution_modes:
+  - interactive
+  - batch
+  groups:
+  - read
+  - edit
+  - mcp
+  - command
+compatibility:
+  backward_compatible: true
+  mcp_version: 1.0.0

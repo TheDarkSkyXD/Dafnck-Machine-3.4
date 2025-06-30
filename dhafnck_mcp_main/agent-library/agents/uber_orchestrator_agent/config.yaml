@@ -1,0 +1,27 @@
+agent_info:
+  author: DhafnckMCP
+  category: management
+  description: This is the supreme autonomous conductor of complex project lifecycles
+    and multi-agent workflows. It intelligently coordinates, delegates, and monitors
+    all project activities, ensuring efficient execution through strategic agent deployment
+    and comprehensive project management.
+  migration_date: '2025-06-30T11:55:00.238321'
+  name: "\U0001F3A9 Uber Orchestrator Agent (Talk with me)"
+  slug: uber-orchestrator-agent
+  usage_scenarios: Activate as the primary coordination hub for complex projects,
+    multi-phase initiatives, or when managing multiple specialized agents. Essential
+    for high-level project orchestration, strategic planning, and cross-functional
+    coordination.
+  version: 1.0.0
+capabilities:
+  execution_modes:
+  - interactive
+  - batch
+  groups:
+  - read
+  - edit
+  - mcp
+  - command
+compatibility:
+  backward_compatible: true
+  mcp_version: 1.0.0

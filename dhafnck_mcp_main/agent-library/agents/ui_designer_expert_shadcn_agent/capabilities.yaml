@@ -1,0 +1,23 @@
+collaboration:
+  agent_communication: true
+  enabled: true
+command_execution:
+  enabled: true
+  restrictions:
+  - sandbox_mode
+file_operations:
+  enabled: true
+  permissions:
+    create: true
+    delete: false
+    read: true
+    write: true
+mcp_tools:
+  enabled: true
+  tools:
+  - mcp_shadcn-ui-server_list-components
+  - mcp_shadcn-ui-server_get-component-docs
+  - mcp_shadcn-ui-server_install-component
+  - mcp_shadcn-ui-server_list-blocks
+  - mcp_shadcn-ui-server_get-block-docs
+  - mcp_shadcn-ui-server_install-blocks

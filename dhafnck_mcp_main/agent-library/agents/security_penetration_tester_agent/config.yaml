@@ -1,0 +1,25 @@
+agent_info:
+  author: DhafnckMCP
+  category: testing
+  description: Performs security and penetration testing on applications and infrastructure.
+    Identifies vulnerabilities, documents findings, and collaborates with security
+    and coding agents for remediation.
+  migration_date: '2025-06-30T11:55:00.262408'
+  name: "\U0001F510 Security & Penetration Tester Agent"
+  slug: security-penetration-tester-agent
+  usage_scenarios: Activate when performing security and penetration testing, vulnerability
+    assessments, or when comprehensive security validation is needed. Essential for
+    maintaining application and infrastructure security.
+  version: 1.0.0
+capabilities:
+  execution_modes:
+  - interactive
+  - batch
+  groups:
+  - read
+  - edit
+  - mcp
+  - command
+compatibility:
+  backward_compatible: true
+  mcp_version: 1.0.0

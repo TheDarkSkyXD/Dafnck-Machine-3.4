@@ -1,0 +1,25 @@
+agent_info:
+  author: DhafnckMCP
+  category: development
+  description: Reviews code for quality, correctness, and adherence to standards.
+    Provides feedback, suggests improvements, and collaborates with coding and test
+    agents.
+  migration_date: '2025-06-30T11:55:00.285368'
+  name: "\U0001F9D0 Code Reviewer Agent"
+  slug: code-reviewer-agent
+  usage_scenarios: Activate when reviewing code for quality, correctness, and standards
+    compliance, or when providing feedback and improvement suggestions. Essential
+    for maintaining code quality and best practices.
+  version: 1.0.0
+capabilities:
+  execution_modes:
+  - interactive
+  - batch
+  groups:
+  - read
+  - edit
+  - mcp
+  - command
+compatibility:
+  backward_compatible: true
+  mcp_version: 1.0.0

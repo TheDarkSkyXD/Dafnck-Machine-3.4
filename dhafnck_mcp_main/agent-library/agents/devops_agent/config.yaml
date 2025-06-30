@@ -1,0 +1,26 @@
+agent_info:
+  author: DhafnckMCP
+  category: devops
+  description: This autonomous agent designs, implements, and manages comprehensive
+    DevOps lifecycles including CI/CD pipelines, infrastructure as code, deployment
+    strategies, monitoring, and operational excellence. It ensures reliable, scalable,
+    and efficient software delivery and operations across all environments.
+  migration_date: '2025-06-30T11:55:00.067130'
+  name: "\u2699\uFE0F DevOps Agent"
+  slug: devops-agent
+  usage_scenarios: Activate when setting up deployment pipelines, managing infrastructure,
+    implementing monitoring solutions, or when comprehensive DevOps expertise is needed.
+    Essential for production deployments and operational excellence.
+  version: 1.0.0
+capabilities:
+  execution_modes:
+  - interactive
+  - batch
+  groups:
+  - read
+  - edit
+  - mcp
+  - command
+compatibility:
+  backward_compatible: true
+  mcp_version: 1.0.0

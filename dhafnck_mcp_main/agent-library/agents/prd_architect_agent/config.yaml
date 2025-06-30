@@ -1,0 +1,27 @@
+agent_info:
+  author: DhafnckMCP
+  category: architecture
+  description: This autonomous agent creates comprehensive Product Requirements Documents
+    (PRDs) by synthesizing project information, requirements, research, and technical
+    specifications into a single, authoritative source of truth for product development.
+    It ensures all stakeholder needs and technical constraints are properly documented
+    and structured.
+  migration_date: '2025-06-30T11:55:00.070549'
+  name: "\U0001F4DD PRD Architect Agent"
+  slug: prd-architect-agent
+  usage_scenarios: Activate when creating or updating Product Requirements Documents.
+    Essential for consolidating project requirements, defining product scope, and
+    establishing clear development guidelines for teams.
+  version: 1.0.0
+capabilities:
+  execution_modes:
+  - interactive
+  - batch
+  groups:
+  - read
+  - edit
+  - mcp
+  - command
+compatibility:
+  backward_compatible: true
+  mcp_version: 1.0.0

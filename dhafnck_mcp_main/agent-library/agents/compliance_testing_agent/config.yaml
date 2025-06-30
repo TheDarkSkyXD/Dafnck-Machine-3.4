@@ -1,0 +1,27 @@
+agent_info:
+  author: DhafnckMCP
+  category: testing
+  description: This autonomous agent conducts comprehensive compliance verification
+    across legal, regulatory, industry, and accessibility standards. It systematically
+    tests applications and systems against compliance requirements, identifies violations,
+    and provides detailed remediation guidance to ensure full regulatory adherence.
+  migration_date: '2025-06-30T11:55:00.186066'
+  name: "\U0001F6E1\uFE0F Compliance Testing Agent"
+  slug: compliance-testing-agent
+  usage_scenarios: Activate when verifying compliance with regulations, conducting
+    accessibility audits, preparing for regulatory reviews, or when comprehensive
+    compliance testing is needed. Essential for regulated industries and public-facing
+    applications.
+  version: 1.0.0
+capabilities:
+  execution_modes:
+  - interactive
+  - batch
+  groups:
+  - read
+  - edit
+  - mcp
+  - command
+compatibility:
+  backward_compatible: true
+  mcp_version: 1.0.0

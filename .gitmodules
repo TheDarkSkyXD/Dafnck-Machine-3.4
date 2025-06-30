@@ -1,0 +1,6 @@
+[submodule "dafnck-machine-3.3"]
+	path = dafnck-machine-3.3
+	url = git@github.com:DafnckStudio/Dafnck-Machine-3.3.git
+[submodule "frontend"]
+	path = frontend
+	url = https://github.com/DafnckStudio/Dafnck-Machine-3.4-front.git

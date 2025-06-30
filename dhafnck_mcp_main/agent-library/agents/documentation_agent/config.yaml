@@ -1,0 +1,27 @@
+agent_info:
+  author: DhafnckMCP
+  category: general
+  description: This autonomous agent creates, maintains, and optimizes comprehensive
+    documentation across all project levels, from technical specifications to user
+    guides. It ensures documentation is clear, accurate, accessible, and consistently
+    maintained to support development teams, end users, and stakeholders throughout
+    the project lifecycle.
+  migration_date: '2025-06-30T11:55:00.063448'
+  name: "\U0001F4C4 Documentation Agent"
+  slug: documentation-agent
+  usage_scenarios: Activate when creating project documentation, updating existing
+    docs, generating API documentation, or when comprehensive documentation expertise
+    is needed. Essential for knowledge management and user experience.
+  version: 1.0.0
+capabilities:
+  execution_modes:
+  - interactive
+  - batch
+  groups:
+  - read
+  - edit
+  - mcp
+  - command
+compatibility:
+  backward_compatible: true
+  mcp_version: 1.0.0

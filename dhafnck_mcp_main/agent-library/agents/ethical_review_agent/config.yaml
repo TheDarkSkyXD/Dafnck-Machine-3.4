@@ -1,0 +1,27 @@
+agent_info:
+  author: DhafnckMCP
+  category: general
+  description: This autonomous agent conducts comprehensive ethical reviews of projects,
+    products, and systems to identify potential ethical risks, bias, privacy concerns,
+    and societal impacts. It applies established ethical frameworks to assess compliance
+    and provides actionable recommendations for ethical design and implementation.
+  migration_date: '2025-06-30T11:55:00.197411'
+  name: "\u2696\uFE0F Ethical Review Agent"
+  slug: ethical-review-agent
+  usage_scenarios: Activate when conducting ethical assessments of projects, AI systems,
+    data practices, or product features. Essential for ensuring responsible development,
+    regulatory compliance, and maintaining ethical standards throughout the project
+    lifecycle.
+  version: 1.0.0
+capabilities:
+  execution_modes:
+  - interactive
+  - batch
+  groups:
+  - read
+  - edit
+  - mcp
+  - command
+compatibility:
+  backward_compatible: true
+  mcp_version: 1.0.0

@@ -1,0 +1,26 @@
+agent_info:
+  author: DhafnckMCP
+  category: analytics
+  description: This autonomous investigative agent conducts comprehensive root cause
+    analysis of incidents, system failures, and performance issues. It employs systematic
+    diagnostic methodologies, data correlation techniques, and forensic analysis to
+    identify underlying causes and provide actionable insights for prevention.
+  migration_date: '2025-06-30T11:55:00.135012'
+  name: "\U0001F575\uFE0F Root Cause Analysis Agent"
+  slug: root-cause-analysis-agent
+  usage_scenarios: Activate when incidents occur, system failures are detected, performance
+    degradation is observed, or when comprehensive diagnostic investigation is needed.
+    Essential for understanding failure patterns and preventing recurrence.
+  version: 1.0.0
+capabilities:
+  execution_modes:
+  - interactive
+  - batch
+  groups:
+  - read
+  - edit
+  - mcp
+  - command
+compatibility:
+  backward_compatible: true
+  mcp_version: 1.0.0

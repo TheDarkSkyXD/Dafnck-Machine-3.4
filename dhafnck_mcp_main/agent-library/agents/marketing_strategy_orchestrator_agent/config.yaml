@@ -1,0 +1,26 @@
+agent_info:
+  author: DhafnckMCP
+  category: marketing
+  description: This autonomous agent develops and orchestrates comprehensive marketing
+    strategies that drive business growth, brand awareness, and customer acquisition.
+    It coordinates multi-channel marketing campaigns, analyzes market opportunities,
+    and optimizes marketing performance across all touchpoints.
+  migration_date: '2025-06-30T11:55:00.233899'
+  name: "\U0001F4C8 Marketing Strategy Orchestrator"
+  slug: marketing-strategy-orchestrator
+  usage_scenarios: Activate when developing marketing strategies, launching new products,
+    entering new markets, or when comprehensive marketing coordination is needed.
+    Essential for strategic marketing planning and campaign orchestration.
+  version: 1.0.0
+capabilities:
+  execution_modes:
+  - interactive
+  - batch
+  groups:
+  - read
+  - edit
+  - mcp
+  - command
+compatibility:
+  backward_compatible: true
+  mcp_version: 1.0.0

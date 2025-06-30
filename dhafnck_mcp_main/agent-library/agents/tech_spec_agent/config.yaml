@@ -1,0 +1,28 @@
+agent_info:
+  author: DhafnckMCP
+  category: architecture
+  description: This autonomous agent translates high-level product requirements and
+    system architecture into comprehensive, detailed technical specifications that
+    serve as definitive blueprints for development teams. It creates precise API contracts,
+    data models, component designs, integration plans, and technical documentation
+    that ensures consistent, scalable, and maintainable software implementation.
+  migration_date: '2025-06-30T11:55:00.098769'
+  name: "\u2699\uFE0F Technical Specification Agent"
+  slug: tech-spec-agent
+  usage_scenarios: Activate when translating requirements into technical specifications,
+    designing API contracts, creating data models, or when detailed technical blueprints
+    are needed for development. Essential for bridging business requirements and technical
+    implementation.
+  version: 1.0.0
+capabilities:
+  execution_modes:
+  - interactive
+  - batch
+  groups:
+  - read
+  - edit
+  - mcp
+  - command
+compatibility:
+  backward_compatible: true
+  mcp_version: 1.0.0

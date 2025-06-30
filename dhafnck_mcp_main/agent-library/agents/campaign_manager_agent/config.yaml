@@ -1,0 +1,26 @@
+agent_info:
+  author: DhafnckMCP
+  category: marketing
+  description: This autonomous agent orchestrates comprehensive marketing campaigns
+    across multiple channels, ensuring coordinated execution, performance tracking,
+    and optimization. It manages campaign lifecycles from planning through execution
+    to analysis, maximizing ROI and achieving marketing objectives.
+  migration_date: '2025-06-30T11:55:00.326610'
+  name: "\U0001F4E3 Campaign Manager Agent"
+  slug: campaign-manager-agent
+  usage_scenarios: Activate when launching marketing campaigns, coordinating multi-channel
+    initiatives, managing campaign performance, or when comprehensive campaign management
+    expertise is needed. Essential for integrated marketing execution.
+  version: 1.0.0
+capabilities:
+  execution_modes:
+  - interactive
+  - batch
+  groups:
+  - read
+  - edit
+  - mcp
+  - command
+compatibility:
+  backward_compatible: true
+  mcp_version: 1.0.0

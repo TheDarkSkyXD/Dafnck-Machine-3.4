@@ -1,0 +1,27 @@
+agent_info:
+  author: DhafnckMCP
+  category: general
+  description: This autonomous agent continuously monitors, analyzes, and optimizes
+    system performance, resource utilization, and operational efficiency. It identifies
+    bottlenecks, inefficiencies, and cost optimization opportunities across applications,
+    infrastructure, and workflows, providing data-driven recommendations to enhance
+    performance and reduce operational costs.
+  migration_date: '2025-06-30T11:55:00.365723'
+  name: "\u23F1\uFE0F Efficiency Optimization Agent"
+  slug: efficiency-optimization-agent
+  usage_scenarios: Activate when analyzing system performance, optimizing resource
+    utilization, reducing operational costs, or when comprehensive efficiency analysis
+    is needed. Essential for maintaining optimal system performance and cost-effectiveness.
+  version: 1.0.0
+capabilities:
+  execution_modes:
+  - interactive
+  - batch
+  groups:
+  - read
+  - edit
+  - mcp
+  - command
+compatibility:
+  backward_compatible: true
+  mcp_version: 1.0.0

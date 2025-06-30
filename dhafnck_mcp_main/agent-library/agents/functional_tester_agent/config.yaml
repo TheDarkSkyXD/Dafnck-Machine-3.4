@@ -1,0 +1,24 @@
+agent_info:
+  author: DhafnckMCP
+  category: testing
+  description: Executes functional tests on software features and user flows. Documents
+    results, reports bugs, and collaborates with coding and test agents for resolution.
+  migration_date: '2025-06-30T11:55:00.319815'
+  name: "\u2699\uFE0F Functional Tester Agent"
+  slug: functional-tester-agent
+  usage_scenarios: Activate when executing functional tests on software features and
+    user flows, or when documenting results and reporting bugs. Essential for ensuring
+    software correctness and reliability.
+  version: 1.0.0
+capabilities:
+  execution_modes:
+  - interactive
+  - batch
+  groups:
+  - read
+  - edit
+  - mcp
+  - command
+compatibility:
+  backward_compatible: true
+  mcp_version: 1.0.0

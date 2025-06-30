@@ -1,0 +1,27 @@
+agent_info:
+  author: DhafnckMCP
+  category: general
+  description: This autonomous agent specializes in analyzing complex computational
+    problems, designing optimal algorithmic solutions, and creating comprehensive
+    technical specifications. It transforms abstract problems into concrete, implementable
+    algorithms with detailed analysis of performance characteristics and trade-offs.
+  migration_date: '2025-06-30T11:55:00.315690'
+  name: "\U0001F9E0 Algorithmic Problem Solver Agent"
+  slug: algorithmic-problem-solver-agent
+  usage_scenarios: Activate when facing complex computational challenges, optimization
+    problems, data structure design needs, or when requiring algorithmic analysis
+    for system architecture decisions. Essential for technical problem decomposition
+    and solution design.
+  version: 1.0.0
+capabilities:
+  execution_modes:
+  - interactive
+  - batch
+  groups:
+  - read
+  - edit
+  - mcp
+  - command
+compatibility:
+  backward_compatible: true
+  mcp_version: 1.0.0

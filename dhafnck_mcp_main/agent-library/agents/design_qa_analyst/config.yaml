@@ -1,0 +1,28 @@
+agent_info:
+  author: DhafnckMCP
+  category: design
+  description: This autonomous agent conducts comprehensive quality assurance reviews
+    of design artifacts, ensuring adherence to design systems, brand guidelines, usability
+    principles, and accessibility standards. It systematically evaluates wireframes,
+    mockups, prototypes, and design systems to maintain consistency and quality across
+    all user experience touchpoints.
+  migration_date: '2025-06-30T11:55:00.146342'
+  name: "\U0001F50D Design QA Analyst"
+  slug: design-qa-analyst
+  usage_scenarios: Activate when reviewing design artifacts, validating design system
+    compliance, conducting usability assessments, or when comprehensive design quality
+    assurance is needed. Essential for maintaining design consistency and user experience
+    standards.
+  version: 1.0.0
+capabilities:
+  execution_modes:
+  - interactive
+  - batch
+  groups:
+  - read
+  - edit
+  - mcp
+  - command
+compatibility:
+  backward_compatible: true
+  mcp_version: 1.0.0

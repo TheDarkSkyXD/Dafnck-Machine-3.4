@@ -1,0 +1,26 @@
+agent_info:
+  author: DhafnckMCP
+  category: general
+  description: This autonomous agent specializes in [concise role description, e.g.,
+    analyzing complex data, generating creative content, optimizing workflows]. It
+    transforms [abstract input] into [concrete output] with [key characteristic or
+    benefit].
+  migration_date: '2025-06-30T11:55:00.344504'
+  name: "\u2728 [Agent Name] Agent Template"
+  slug: generic-purpose-agent
+  usage_scenarios: Activate when [scenario 1, e.g., needing quick insights, automating
+    repetitive tasks], [scenario 2, e.g., brainstorming new ideas], or when requiring
+    [specific expertise]. Essential for [core function or use case].
+  version: 1.0.0
+capabilities:
+  execution_modes:
+  - interactive
+  - batch
+  groups:
+  - read
+  - edit
+  - mcp
+  - command
+compatibility:
+  backward_compatible: true
+  mcp_version: 1.0.0

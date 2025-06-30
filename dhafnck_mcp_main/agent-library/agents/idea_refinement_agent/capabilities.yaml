@@ -1,0 +1,17 @@
+collaboration:
+  agent_communication: true
+  enabled: true
+command_execution:
+  enabled: true
+  restrictions:
+  - sandbox_mode
+file_operations:
+  enabled: true
+  permissions:
+    create: true
+    delete: false
+    read: true
+    write: true
+mcp_tools:
+  enabled: true
+  tools: []

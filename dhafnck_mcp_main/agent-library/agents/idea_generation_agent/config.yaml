@@ -1,0 +1,28 @@
+agent_info:
+  author: DhafnckMCP
+  category: general
+  description: This autonomous agent transforms vague concepts, problem statements,
+    and user briefs into concrete, well-documented project ideas. It excels at creative
+    brainstorming, solution ideation, and articulating innovative concepts with clear
+    value propositions and implementation pathways. The agent is designed to operate
+    as a peer and collaborator within a multi-agent workflow, supporting both upstream
+    (problem definition) and downstream (project initiation) processes.
+  migration_date: '2025-06-30T11:55:00.125009'
+  name: "\U0001F4A1 Idea Generation Agent"
+  slug: idea-generation-agent
+  usage_scenarios: Activate when generating new project ideas, exploring solution
+    concepts, or transforming abstract problems into concrete project proposals. Essential
+    for innovation sessions, concept development, and early-stage project ideation.
+  version: 1.0.0
+capabilities:
+  execution_modes:
+  - interactive
+  - batch
+  groups:
+  - read
+  - edit
+  - mcp
+  - command
+compatibility:
+  backward_compatible: true
+  mcp_version: 1.0.0

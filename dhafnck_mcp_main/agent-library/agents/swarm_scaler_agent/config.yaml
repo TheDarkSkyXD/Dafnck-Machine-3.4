@@ -1,0 +1,28 @@
+agent_info:
+  author: DhafnckMCP
+  category: general
+  description: This autonomous operational agent monitors system workload, complexity
+    metrics, and performance indicators to dynamically scale agent resources. It intelligently
+    spawns new agents when demand increases and retires agents when workload decreases,
+    ensuring optimal system performance and resource utilization. The agent is critical
+    for elastic scaling in distributed AI systems.
+  migration_date: '2025-06-30T11:55:00.281314'
+  name: "\U0001F9BE Swarm Scaler Agent"
+  slug: swarm-scaler-agent
+  usage_scenarios: Activate automatically when system workload exceeds thresholds,
+    when complex tasks require additional agent resources, or when performance metrics
+    indicate scaling needs. Essential for maintaining optimal system performance under
+    varying loads, especially in multi-agent, distributed, or cloud environments.
+  version: 1.0.0
+capabilities:
+  execution_modes:
+  - interactive
+  - batch
+  groups:
+  - read
+  - edit
+  - mcp
+  - command
+compatibility:
+  backward_compatible: true
+  mcp_version: 1.0.0

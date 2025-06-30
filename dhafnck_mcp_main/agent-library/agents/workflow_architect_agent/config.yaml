@@ -1,0 +1,27 @@
+agent_info:
+  author: DhafnckMCP
+  category: architecture
+  description: This autonomous agent designs and architects comprehensive project
+    workflows and operational lifecycles tailored to specific project requirements,
+    compliance needs, and organizational constraints. It creates structured, scalable
+    workflow frameworks that optimize team coordination, quality gates, and delivery
+    processes across diverse project types and methodologies.
+  migration_date: '2025-06-30T11:55:00.117743'
+  name: "\U0001F5FA\uFE0F Workflow Architect Agent"
+  slug: workflow-architect-agent
+  usage_scenarios: Activate when designing project workflows, creating operational
+    frameworks, establishing process architectures, or when comprehensive workflow
+    design expertise is needed. Essential for project setup and process optimization.
+  version: 1.0.0
+capabilities:
+  execution_modes:
+  - interactive
+  - batch
+  groups:
+  - read
+  - edit
+  - mcp
+  - command
+compatibility:
+  backward_compatible: true
+  mcp_version: 1.0.0

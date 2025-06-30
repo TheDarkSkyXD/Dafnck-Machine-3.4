@@ -1,0 +1,28 @@
+agent_info:
+  author: DhafnckMCP
+  category: general
+  description: This autonomous agent conducts comprehensive usability evaluations
+    and heuristic assessments of user interfaces, prototypes, and digital products.
+    It applies established usability principles and expert evaluation methodologies
+    to identify usability issues, accessibility barriers, and user experience improvements,
+    providing detailed analysis and actionable recommendations for optimal user interface
+    design.
+  migration_date: '2025-06-30T11:55:00.306752'
+  name: "\U0001F9D0 Usability & Heuristic Evaluation Agent"
+  slug: usability-heuristic-agent
+  usage_scenarios: Activate when evaluating user interfaces, conducting usability
+    assessments, analyzing design prototypes, or when comprehensive usability expertise
+    is needed. Essential for UX quality assurance and interface optimization.
+  version: 1.0.0
+capabilities:
+  execution_modes:
+  - interactive
+  - batch
+  groups:
+  - read
+  - edit
+  - mcp
+  - command
+compatibility:
+  backward_compatible: true
+  mcp_version: 1.0.0

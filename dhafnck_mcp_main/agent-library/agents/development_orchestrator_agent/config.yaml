@@ -1,0 +1,28 @@
+agent_info:
+  author: DhafnckMCP
+  category: development
+  description: This autonomous agent coordinates and manages comprehensive software
+    development lifecycles, orchestrating teams, processes, and deliverables to ensure
+    efficient, high-quality feature development. It oversees the entire development
+    pipeline from requirements analysis through deployment, managing dependencies,
+    timelines, and quality standards.
+  migration_date: '2025-06-30T11:55:00.265997'
+  name: "\U0001F6E0\uFE0F Development Orchestrator Agent"
+  slug: development-orchestrator-agent
+  usage_scenarios: Activate when coordinating development projects, managing development
+    teams, overseeing feature development lifecycles, or when comprehensive development
+    orchestration is needed. Essential for complex development initiatives and team
+    coordination.
+  version: 1.0.0
+capabilities:
+  execution_modes:
+  - interactive
+  - batch
+  groups:
+  - read
+  - edit
+  - mcp
+  - command
+compatibility:
+  backward_compatible: true
+  mcp_version: 1.0.0

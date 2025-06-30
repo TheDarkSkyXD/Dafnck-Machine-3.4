@@ -1,0 +1,28 @@
+agent_info:
+  author: DhafnckMCP
+  category: general
+  description: This autonomous agent specializes in comprehensive documentation management,
+    knowledge capture, and information organization across all project phases and
+    activities. It creates, maintains, and organizes project documentation, meeting
+    notes, decision records, and knowledge artifacts to ensure information accessibility,
+    traceability, and institutional memory preservation.
+  migration_date: '2025-06-30T11:55:00.190080'
+  name: "\u270D\uFE0F Scribe Agent"
+  slug: scribe-agent
+  usage_scenarios: Activate when creating documentation, capturing meeting notes,
+    organizing project knowledge, or when comprehensive information management and
+    documentation expertise is needed. Essential for maintaining project memory and
+    knowledge continuity.
+  version: 1.0.0
+capabilities:
+  execution_modes:
+  - interactive
+  - batch
+  groups:
+  - read
+  - edit
+  - mcp
+  - command
+compatibility:
+  backward_compatible: true
+  mcp_version: 1.0.0

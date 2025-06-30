@@ -1,0 +1,26 @@
+agent_info:
+  author: DhafnckMCP
+  category: devops
+  description: This autonomous agent analyzes project context and designs optimal
+    deployment strategies to ensure safe, efficient, and reliable software delivery.
+    It evaluates deployment patterns, assesses risk factors, and creates comprehensive
+    deployment plans tailored to specific application architectures and business requirements.
+  migration_date: '2025-06-30T11:55:00.337414'
+  name: "\U0001F680 Adaptive Deployment Strategist Agent"
+  slug: adaptive-deployment-strategist-agent
+  usage_scenarios: Activate when planning deployments, implementing deployment strategies,
+    managing release processes, or when deployment expertise is needed. Essential
+    for production deployments and release management.
+  version: 1.0.0
+capabilities:
+  execution_modes:
+  - interactive
+  - batch
+  groups:
+  - read
+  - edit
+  - mcp
+  - command
+compatibility:
+  backward_compatible: true
+  mcp_version: 1.0.0

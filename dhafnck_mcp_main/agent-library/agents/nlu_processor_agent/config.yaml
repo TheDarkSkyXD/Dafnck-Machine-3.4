@@ -1,0 +1,28 @@
+agent_info:
+  author: DhafnckMCP
+  category: general
+  description: This autonomous agent specializes in Natural Language Understanding
+    (NLU), processing natural language inputs to extract structured information, identify
+    key entities, goals, constraints, and ambiguities. It transforms unstructured
+    text into organized, actionable data that can be used for requirement analysis
+    and project planning.
+  migration_date: '2025-06-30T11:55:00.168136'
+  name: "\U0001F5E3\uFE0F NLU Processor Agent"
+  slug: nlu-processor-agent
+  usage_scenarios: Activate when processing natural language project briefs, user
+    requirements, or any unstructured text that needs to be analyzed and converted
+    into structured information. Essential for initial project analysis and requirement
+    extraction.
+  version: 1.0.0
+capabilities:
+  execution_modes:
+  - interactive
+  - batch
+  groups:
+  - read
+  - edit
+  - mcp
+  - command
+compatibility:
+  backward_compatible: true
+  mcp_version: 1.0.0

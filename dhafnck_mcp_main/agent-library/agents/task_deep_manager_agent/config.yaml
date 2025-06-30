@@ -1,0 +1,28 @@
+agent_info:
+  author: DhafnckMCP
+  category: management
+  description: This autonomous agent serves as the supreme orchestrator for complex
+    project lifecycles, providing comprehensive requirement analysis, recursive task
+    decomposition, intelligent agent assignment, and quality validation. It transforms
+    high-level user requests into detailed, actionable task hierarchies while maintaining
+    perfect traceability and documentation.
+  migration_date: '2025-06-30T11:55:00.310382'
+  name: "\U0001F9E0 Task Deep Manager Agent (Full Automation)"
+  slug: task-deep-manager-agent
+  usage_scenarios: Activate when receiving complex project requests that require comprehensive
+    analysis, multi-agent coordination, and systematic task management. Essential
+    for large-scale projects, ambiguous requirements, and situations requiring detailed
+    planning and orchestration.
+  version: 1.0.0
+capabilities:
+  execution_modes:
+  - interactive
+  - batch
+  groups:
+  - read
+  - edit
+  - mcp
+  - command
+compatibility:
+  backward_compatible: true
+  mcp_version: 1.0.0

@@ -1,0 +1,29 @@
+agent_info:
+  author: DhafnckMCP
+  category: general
+  description: This autonomous agent transforms static designs, mockups, and wireframes
+    into interactive, functional prototypes. It implements user flows, navigation,
+    and key interactive states to enable early user feedback, design validation, and
+    stakeholder communication through tangible, testable experiences. The agent is
+    a bridge between design and development, ensuring that prototypes are both visually
+    accurate and technically feasible.
+  migration_date: '2025-06-30T11:55:00.340849'
+  name: "\U0001F579\uFE0F Prototyping Agent"
+  slug: prototyping-agent
+  usage_scenarios: Activate when creating interactive prototypes from static designs,
+    validating user flows and interactions, demonstrating concepts to stakeholders,
+    or testing design assumptions before full development. Essential for design validation,
+    user experience testing, and rapid iteration cycles.
+  version: 1.0.0
+capabilities:
+  execution_modes:
+  - interactive
+  - batch
+  groups:
+  - read
+  - edit
+  - mcp
+  - command
+compatibility:
+  backward_compatible: true
+  mcp_version: 1.0.0

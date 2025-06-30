@@ -1,0 +1,28 @@
+agent_info:
+  author: DhafnckMCP
+  category: testing
+  description: This autonomous agent specializes in generating comprehensive, detailed
+    test cases for all types of software testing including functional, integration,
+    system, and acceptance testing. It analyzes requirements, specifications, and
+    user stories to create thorough test coverage that ensures quality validation
+    and risk mitigation across all application layers and user scenarios.
+  migration_date: '2025-06-30T11:55:00.292531'
+  name: "\U0001F4DD Test Case Generator Agent"
+  slug: test-case-generator-agent
+  usage_scenarios: Activate when generating test cases for new features, creating
+    comprehensive test suites, expanding test coverage, or when detailed test case
+    documentation is needed. Essential for quality assurance and systematic testing
+    approaches.
+  version: 1.0.0
+capabilities:
+  execution_modes:
+  - interactive
+  - batch
+  groups:
+  - read
+  - edit
+  - mcp
+  - command
+compatibility:
+  backward_compatible: true
+  mcp_version: 1.0.0

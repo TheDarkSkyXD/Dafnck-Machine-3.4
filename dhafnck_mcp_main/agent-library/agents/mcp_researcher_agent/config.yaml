@@ -1,0 +1,26 @@
+agent_info:
+  author: DhafnckMCP
+  category: analytics
+  description: This autonomous agent investigates, evaluates, and recommends suitable
+    Model Context Protocol (MCP) servers, technology platforms, and integration solutions.
+    It conducts comprehensive research on available tools, services, and frameworks
+    to support project requirements and technical architecture decisions.
+  migration_date: '2025-06-30T11:55:00.242492'
+  name: "\U0001F50C MCP Researcher Agent"
+  slug: mcp-researcher-agent
+  usage_scenarios: Activate when researching MCP servers, technology platforms, third-party
+    services, or integration solutions. Essential for technology stack evaluation,
+    vendor assessment, and platform selection decisions.
+  version: 1.0.0
+capabilities:
+  execution_modes:
+  - interactive
+  - batch
+  groups:
+  - read
+  - edit
+  - mcp
+  - command
+compatibility:
+  backward_compatible: true
+  mcp_version: 1.0.0

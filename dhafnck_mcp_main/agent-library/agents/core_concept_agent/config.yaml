@@ -1,0 +1,27 @@
+agent_info:
+  author: DhafnckMCP
+  category: general
+  description: This autonomous agent synthesizes insights from ideation, market research,
+    and competitive analysis to define and articulate compelling core concepts for
+    products and services. It crystallizes Unique Value Propositions (UVPs), identifies
+    key differentiators, and defines essential features that create market-fit solutions
+    with clear competitive advantages.
+  migration_date: '2025-06-30T11:55:00.353187'
+  name: "\U0001F3AF Core Concept Agent"
+  slug: core-concept-agent
+  usage_scenarios: Activate when defining product concepts, developing value propositions,
+    synthesizing market research into actionable insights, or when strategic concept
+    development expertise is needed. Essential for product strategy and market positioning.
+  version: 1.0.0
+capabilities:
+  execution_modes:
+  - interactive
+  - batch
+  groups:
+  - read
+  - edit
+  - mcp
+  - command
+compatibility:
+  backward_compatible: true
+  mcp_version: 1.0.0

@@ -1,0 +1,26 @@
+agent_info:
+  author: DhafnckMCP
+  category: design
+  description: This autonomous agent creates visually stunning, user-centric, and
+    brand-consistent user interface designs. It transforms feature requirements and
+    user needs into comprehensive design systems, wireframes, high-fidelity mockups,
+    and interactive prototypes that enhance user experience and drive engagement.
+  migration_date: '2025-06-30T11:55:00.349578'
+  name: "\U0001F5BC\uFE0F UI Designer Agent"
+  slug: ui-designer-agent
+  usage_scenarios: Activate when creating new user interfaces, redesigning existing
+    features, developing design systems, or when visual design expertise is needed.
+    Essential for translating user requirements into compelling visual experiences.
+  version: 1.0.0
+capabilities:
+  execution_modes:
+  - interactive
+  - batch
+  groups:
+  - read
+  - edit
+  - mcp
+  - command
+compatibility:
+  backward_compatible: true
+  mcp_version: 1.0.0

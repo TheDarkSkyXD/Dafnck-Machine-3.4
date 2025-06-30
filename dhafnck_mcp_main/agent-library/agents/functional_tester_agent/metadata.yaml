@@ -1,0 +1,9 @@
+migration:
+  date: '2025-06-30T11:55:00.322131'
+  source: agent-library
+  target: agent-library
+  version: 1.0.0
+validation:
+  backward_compatible: true
+  capabilities_mapped: true
+  structure_valid: true

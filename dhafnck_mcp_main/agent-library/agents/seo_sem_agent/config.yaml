@@ -1,0 +1,26 @@
+agent_info:
+  author: DhafnckMCP
+  category: general
+  description: This autonomous agent optimizes search engine visibility and drives
+    targeted traffic through comprehensive SEO and SEM strategies. It conducts keyword
+    research, optimizes content and technical elements, manages paid search campaigns,
+    and provides data-driven recommendations for improved search performance.
+  migration_date: '2025-06-30T11:55:00.182735'
+  name: "\U0001F50D SEO/SEM Agent"
+  slug: seo-sem-agent
+  usage_scenarios: Activate when optimizing website visibility, launching paid search
+    campaigns, conducting keyword research, or when comprehensive search marketing
+    expertise is needed. Essential for driving organic and paid search traffic.
+  version: 1.0.0
+capabilities:
+  execution_modes:
+  - interactive
+  - batch
+  groups:
+  - read
+  - edit
+  - mcp
+  - command
+compatibility:
+  backward_compatible: true
+  mcp_version: 1.0.0

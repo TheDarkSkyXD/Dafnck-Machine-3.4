@@ -1,0 +1,41 @@
+# Development overrides for Docker Compose
+# Usage: docker-compose -f docker-compose.yml -f docker-compose.dev.yml up
+
+services:
+  dhafnck-mcp:
+    build:
+      target: builder  # Use builder stage for development
+    
+    # Development environment variables
+    environment:
+      - FASTMCP_LOG_LEVEL=DEBUG
+      - FASTMCP_ENABLE_RICH_TRACEBACKS=1
+      # Python development settings
+      - PYTHONDONTWRITEBYTECODE=1  # Don't create .pyc files
+      - PYTHONUNBUFFERED=1         # Unbuffered output for better logging
+      # Development mode indicators
+      - DEVELOPMENT_MODE=true
+      - HOT_RELOAD=true
+    
+    # Mount source code for live reload
+    volumes:
+      - ./src:/app/src:ro
+      - ./tests:/app/tests:ro  # Mount tests for in-container testing
+      # Mount rule files from parent project for development
+      - ../00_RULES:/data/rules/mounted:ro  # Your actual rule files
+    
+    # Remove resource limits for development
+    deploy:
+      resources: {}
+    
+    # Development ports (if needed for debugging)
+    ports:
+      - "8000:8000"
+      - "8001:8001"  # Additional debug port
+    
+    # Development logging (more verbose)
+    logging:
+      driver: "json-file"
+      options:
+        max-size: "50m"
+        max-file: "5" 

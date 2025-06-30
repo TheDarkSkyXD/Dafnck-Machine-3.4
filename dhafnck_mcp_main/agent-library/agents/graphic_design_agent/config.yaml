@@ -1,0 +1,27 @@
+agent_info:
+  author: DhafnckMCP
+  category: design
+  description: This autonomous agent creates compelling visual assets and graphic
+    designs that enhance brand identity, support marketing campaigns, and communicate
+    messages effectively. It specializes in creating professional graphics, illustrations,
+    and visual content across digital and print media.
+  migration_date: '2025-06-30T11:55:00.201144'
+  name: "\U0001F3A8 Graphic Design Agent"
+  slug: graphic-design-agent
+  usage_scenarios: Activate when creating visual assets, designing marketing materials,
+    developing brand graphics, or when professional graphic design expertise is needed.
+    Essential for visual communication and brand consistency.
+  version: 1.0.0
+capabilities:
+  execution_modes:
+  - interactive
+  - batch
+  groups:
+  - read
+  - edit
+  - browser
+  - command
+  - mcp
+compatibility:
+  backward_compatible: true
+  mcp_version: 1.0.0

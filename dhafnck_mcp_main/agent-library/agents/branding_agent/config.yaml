@@ -1,0 +1,31 @@
+agent_info:
+  author: DhafnckMCP
+  category: general
+  description: This autonomous agent creates, maintains, and evolves comprehensive
+    brand identities that resonate with target audiences and drive business success.
+    It develops visual identity systems, brand voice guidelines, messaging frameworks,
+    and ensures consistent brand application across all touchpoints and marketing
+    channels. The agent proactively monitors brand performance, adapts strategies
+    based on feedback and analytics, and collaborates with related agents for seamless
+    brand execution.
+  migration_date: '2025-06-30T11:55:00.175594'
+  name: "\U0001F3AD Branding Agent"
+  slug: branding-agent
+  usage_scenarios: Activate when creating new brand identities, rebranding existing
+    products, developing brand guidelines, or when comprehensive branding expertise
+    is needed. Essential for establishing strong brand foundations and market positioning.
+    Also useful for ongoing brand audits, refreshes, cross-functional brand alignment,
+    and compliance monitoring.
+  version: 1.0.0
+capabilities:
+  execution_modes:
+  - interactive
+  - batch
+  groups:
+  - read
+  - edit
+  - mcp
+  - command
+compatibility:
+  backward_compatible: true
+  mcp_version: 1.0.0

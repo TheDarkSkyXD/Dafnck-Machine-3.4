@@ -64,14 +64,27 @@ start_container() {
         echo "✅ Container is already running!"
         echo "🌐 Server URL: http://localhost:8000"
         return 0
-    elif check_container_exists; then
-        echo "🔄 Starting existing container..."
-        docker start ${CONTAINER_NAME}
-        echo "✅ Container started!"
     else
-        echo "🆕 Creating and starting new container..."
-        docker-compose -f docker/docker-compose.yml -f docker/docker-compose.local.yml up -d
-        echo "✅ Container created and started!"
+        echo "🧹 Cleaning up Docker system and rebuilding container..."
+        echo "🔄 This ensures a fresh start with latest changes"
+        
+        # Clean up Docker system
+        echo "🗑️  Pruning Docker system..."
+        docker system prune -f
+        
+        # Stop and remove existing containers
+        echo "🛑 Stopping existing containers..."
+        docker-compose -f docker/docker-compose.redis.yml down 2>/dev/null || true
+        
+        # Build fresh container without cache
+        echo "🔨 Building fresh container (no cache)..."
+        docker-compose -f docker/docker-compose.redis.yml build --no-cache dhafnck-mcp
+        
+        # Start the container
+        echo "🚀 Starting container..."
+        docker-compose -f docker/docker-compose.redis.yml up -d
+        
+        echo "✅ Container built and started fresh!"
     fi
     
     echo "🌐 Server URL: http://localhost:8000"
